@@ -5,7 +5,7 @@ import requests
 
 
 def fetch_restaurants(zip_code):
-    api_key = "YOUR_YELP_API_KEY"
+    api_key = "FIX ME_WHEN_DEPLOY"  
     headers = {"Authorization": f"Bearer {api_key}"}
     url = "https://api.yelp.com/v3/businesses/search"
 
